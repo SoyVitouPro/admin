@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name admin.bongrean.com;
+    server_name admn.bongrean.com;
 
     location / {
         proxy_pass http://localhost:5000;
