@@ -8,8 +8,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Install the dependencies from requirements.txt
-RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 # Copy the random forest model file
 COPY random_forest_model.pkl /app/
