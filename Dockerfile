@@ -8,7 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY random_forest_model.pkl /app/
 COPY app.py /app/
 COPY flower/ /app/flower/
-COPY home.html /app/
+COPY templates/home.html /app/templates/
 
 
 CMD ["python", "app.py"]
