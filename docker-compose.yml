@@ -1,7 +1,7 @@
 version: '3'
 services:
-  team_01:
-    image: team_01
-    container_name: team_01_container
+  admin:
+    image: admin
+    container_name: admin_container
     ports:
       - "5000:5000"
