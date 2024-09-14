@@ -1,7 +1,7 @@
 version: '3'
 services:
-  admn:
-    image: admn
-    container_name: admn_container
+  demo:
+    image: demo
+    container_name: demo_container
     ports:
       - "5000:5000"
