@@ -19,8 +19,6 @@ COPY app.py /app/
 COPY flower/ /app/flower/
 COPY templates/home.html /app/templates/
 
-# Expose the port that Flask will use
-EXPOSE 5000
 
 # Command to run the Flask app, making sure it binds to all available IPs
 CMD ["python", "app.py"]
